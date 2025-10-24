@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html
+        {
+            scroll-behavior: smooth;
+        }
+    </style>
+  </head>
+
+  <body class="bg-gray-50 text-gray-900">
+
+    <nav class="flex justify-between items-center px-6 py-4 bg-white shadow-md sticky top-0 z-50">
+      <h1 class="text-2xl font-bold text-blue-600">Creative<span class="text-gray-800">Lab</span></h1>
+      <ul class="hidden md:flex gap-8">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#services" class="hover:text-blue-600">Services</a></li>
+        <li><a href="#team" class="hover:text-blue-600">Team</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+      <button class="md:hidden text-2xl">&#9776;</button>
+    </nav>
+
+    <section id="home" class="flex flex-col md:flex-row items-center justify-between px-8 py-20 bg-gradient-to-r from-blue-50 to-blue-100">
+      <div class="max-w-xl mb-10 md:mb-0">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4">We Build Creative Digital Experiences</h2>
+        <p class="text-lg text-gray-600 mb-6">
+          Our team of professionals helps brands grow with modern design and smart marketing.
+        </p>
+        <button class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Get Started</button>
+      </div>
+      <img src="https://zorgle.co.uk/wp-content/uploads/2023/12/Learn-how-mobile-marketing-can-be-part-of-your-overal-digital-marketing-plan.jpg" 
+           alt="Team" class="w-full md:w-1/2 rounded-2xl shadow-lg">
+    </section>
+
+    <section id="services" class="px-8 py-16 text-center">
+      <h3 class="text-3xl font-bold mb-10">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-lg rounded-2xl p-6 hover:-translate-y-1 transition">
+          <h4 class="text-xl font-semibold mb-3 text-blue-600">Web Design</h4>
+          <p>We craft stunning and responsive websites that represent your brand identity.</p>
+        </div>
+        <div class="bg-white shadow-lg rounded-2xl p-6 hover:-translate-y-1 transition">
+          <h4 class="text-xl font-semibold mb-3 text-blue-600">Digital Marketing</h4>
+          <p>Boost your business reach with data-driven social media and SEO strategies.</p>
+        </div>
+        <div class="bg-white shadow-lg rounded-2xl p-6 hover:-translate-y-1 transition">
+          <h4 class="text-xl font-semibold mb-3 text-blue-600">Brand Strategy</h4>
+          <p>We help you build a powerful brand presence that stands out in your industry.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="bg-gray-100 px-8 py-16 text-center">
+      <h3 class="text-3xl font-bold mb-10">Meet Our Team</h3>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <img src="img.png" alt="member" class="w-24 h-24 mx-auto rounded-full mb-4">
+          <h4 class="text-lg font-semibold">Sami Mohamed</h4>
+          <p class="text-sm text-gray-500">UI/UX Designer</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <img src="img.png" alt="member" class="w-24 h-24 mx-auto rounded-full mb-4">
+          <h4 class="text-lg font-semibold">Sami Mohamed</h4>
+          <p class="text-sm text-gray-500">Project Manager</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <img src="img.png" alt="member" class="w-24 h-24 mx-auto rounded-full mb-4">
+          <h4 class="text-lg font-semibold">Sami Mohamed</h4>
+          <p class="text-sm text-gray-500">Marketing Lead</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="px-8 py-16 text-center">
+      <h3 class="text-3xl font-bold mb-8">Get in Touch</h3>
+      <form class="max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-8">
+        <input type="text" placeholder="Your Name" class="w-full mb-4 p-3 border rounded-lg focus:outline-blue-500" />
+        <input type="email" placeholder="Your Email" class="w-full mb-4 p-3 border rounded-lg focus:outline-blue-500" />
+        <textarea placeholder="Your Message" class="w-full mb-4 p-3 border rounded-lg focus:outline-blue-500"></textarea>
+        <button class="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="bg-gray-900 text-white text-center py-6 mt-10">
+      <p>© 2025 CreativeLab Agency. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
